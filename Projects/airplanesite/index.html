@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cropper {
+            width: 50px;
+            height: 70px;
+            overflow: hidden;
+            background-color: blue;
+        }
+        .topbar {
+            
+            justify-items: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <img alt="intelworks" class="logo">Logo</img>
+            <nav>
+                <a href="#">something</a>
+                <a href="#">something</a>
+                <a href="#">something</a>
+                <!--
+                <div class="cropper">
+                    <img src="https://pixy.org/download/716138/"/>
+                </div>
+                <video id="bunnyvid">
+                    <source src="mov_bbb.mp4" type="video/mp4">
+                    Your browser bad at video
+                </video>
+                <audio src="rocket.wav" controls></audio>
+                <canvas id="mycanvas" width="400" height="300" style="border: 1px solid #dadfea;">
+                
+                </canvas>
+                -->
+            </nav>
+        </div>
+    </div>
+</body>
+
+<script>
+    let thecanvas = document.getElementById('mycanvas');
+    let ctx = thecanvas.getContext("2d");
+    ctx.moveTo(0,0);
+    ctx.lineTo(400,300);
+    ctx.moveTo(400,0);
+    ctx.lineTo(0,300);
+    ctx.stroke();
+    //let myvid = document.getElementById('bunnyvid');
+    //myvid.play();
+</script>
+
+</html>
