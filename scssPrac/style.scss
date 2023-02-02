@@ -1,0 +1,11 @@
+@use 'spending/spending' as *;
+@use 'vars' as *;
+
+body {
+    background-color: $mybackground-color;
+    font-family: $myfont-family;
+}
+
+.container {
+    width: 650px;
+}

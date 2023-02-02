@@ -1,0 +1,60 @@
+.widget {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: rgba(97, 73, 205, 0.15) 0px 48px 100px 0px;
+  border: 1px solid #ffffff;
+}
+.widget .inner {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.widget .inner .top .title {
+  font-size: 12px;
+}
+.widget .inner .top .value {
+  font-size: 18px;
+}
+
+.graph {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.graph .monthbox {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.graph .monthbox .bar {
+  background-color: #e6e8f6;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+.graph .monthbox .small {
+  height: 50px;
+}
+.graph .monthbox .medium {
+  height: 75px;
+}
+.graph .monthbox .large {
+  height: 100px;
+}
+.graph .monthbox .barlabel {
+  text-align: center;
+}
+.graph .monthbox .active {
+  background-color: #6149cd;
+  box-shadow: rgba(97, 73, 205, 0.15) 0px 48px 100px 0px;
+}
+
+body {
+  background-color: #e6e8f6;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 650px;
+}/*# sourceMappingURL=style.css.map */

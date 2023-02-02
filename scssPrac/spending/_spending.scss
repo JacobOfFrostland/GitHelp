@@ -1,0 +1,64 @@
+@use '../vars' as *;
+
+.widget {
+    padding: 15px;
+    background-color: $widget-edge;
+    border-radius: $myb-radius;
+    box-shadow: rgba(97, 73, 205, 0.15) 0px 48px 100px 0px;
+    border: 1px solid $pallet-color;
+
+    .inner {
+        padding: $widget-padding;
+        background-color: $pallet-color;
+        border-radius: $myb-radius;
+
+        .top {
+            .title {
+                font-size: 12px;
+            }
+
+            .value {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.graph {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    .monthbox {
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        .bar {
+            background-color: $mybackground-color;
+            border-radius: 6px;
+            margin-bottom: 5px;
+        }
+
+        .small {
+            height: 50px;
+        }
+
+        .medium {
+            height: 75px;
+        }
+        
+        .large {
+            height: 100px;
+        }
+
+        .barlabel {
+            text-align: center;
+        }
+
+        .active {
+            background-color: $primary-color;
+            box-shadow: rgba(97, 73, 205, 0.15) 0px 48px 100px 0px;
+        }
+    }
+}
