@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>February 7 2023 Warmup</title>
+    <style>
+
+    </style>
+    <script>
+        function handleOnClick() {
+            //text from username
+            const userNameText = document.querySelector('input[name="username"]').value;
+            //text from password
+            const passwordText = document.querySelector('input[name="password"]').value;
+            //console.log username and password
+            console.log(userNameText, passwordText);
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="username" placeholder="user name"/>
+    <input type="password" name="password" placeholder="password" />
+    <button onclick="handleOnClick()">Click Here</button>
+</body>
+</html>
